@@ -1,0 +1,8 @@
+config.sh
+output/
+*.log
+*.sumstats.gz
+*.txt.gz
+!resources/*.txt.gz
+.Rhistory
+.RData
