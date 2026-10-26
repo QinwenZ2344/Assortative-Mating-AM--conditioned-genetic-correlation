@@ -23,7 +23,7 @@ Download the European LD scores from the [LDSC wiki](https://github.com/bulik/ld
 - `resources/w_hm3.snplist` — HapMap3 SNPs used to align alleles
 - `resources/reference.1000G.maf.0.005.txt.gz` — 1000 Genomes SNPs with MAF > 0.005 (`SNP`, `MAF`, `A1`, `A2`)
 
-`config.example.sh` points `HM3` and `REF` at those files. The MAF reference is gzipped, and chromosome and base-pair columns are omitted, so the file stays under GitHub's 100 MB limit. GSUB only needs the four columns that are included, and it reads the gzipped file directly.
+`config.example.sh` points `HM3` and `REF` at those files.
 
 ```bash
 git clone https://github.com/qlu-lab/GSUB.git
